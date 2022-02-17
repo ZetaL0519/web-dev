@@ -1,0 +1,114 @@
+.wd-body {
+    margin-left:16px;
+    margin-top:12px;
+    padding-bottom: 12px;
+    width: 700px;
+    background-color: black;
+
+}
+
+.wd-head {
+    margin-top: 5px;
+    margin-left: 16px;
+    font-size: 20px;
+    color: white;
+}
+
+.wd-sub {
+    margin-left: 16px;
+    font-size: 13px;
+    color: gray;
+    margin-bottom: 12px;
+}
+
+.wd-border {
+    margin-top:12px;
+    margin-bottom: 12px;
+
+}
+.wd-title-border {
+    margin-top:12px;
+    border: 1px solid rgb(47,51,54);
+    border-top: none;
+    border-left：none;
+    border-right：none;
+}
+.wd-profile-img {
+    margin-top:12px;
+    margin-left: 16px;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+.grid{
+    display: flex;
+    overflow: hidden;
+}
+
+.grid-col-left-sidebar {
+    float: left;
+}
+
+.grid-col-main-content {
+    margin-top: 8px;
+    margin-left: 12px;
+    float: right;
+    width: 504px;
+}
+
+.wd-title-input {
+    margin-left:16px;
+    font-size:15px;
+    color: white;
+    padding: 1px;
+}
+
+.wd-topic-input {
+    padding-top: 10px;
+    margin-left:16px;
+    font-size:13px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-image-input {
+    vertical-align: bottom;
+    margin-left:16px;
+}
+
+.wd-image-border-content{
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    width: 504px;
+    height: 264px;
+    border-bottom: 1px solid rgb(47,51,54);
+}
+
+.wd-border-content {
+    border-radius: 40px;
+    margin-left: 20px;
+    width: 504px;
+    margin-top: 12px;
+    padding-bottom: 10px;
+    border: 1px solid rgb(47,51,54);
+}
+
+.wd-tuit-title-border {
+    font-size:15px;
+    width: 504px;
+    padding-top: 12px;
+    margin-left: 20px;
+    color:white;
+}
+
+.wd-tuit-text-border {
+    margin-left: 20px;
+    color: gray;
+    font-size: 15px;
+    width: 478px;
+}
+
+a:link {
+  text-decoration: none;
+  color: gray;
+}
