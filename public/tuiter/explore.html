@@ -9,52 +9,116 @@
     <script src="https://kit.fontawesome.com/83adfdaea4.js" crossorigin="anonymous"></script>
 </head>
 <body class="wd-body">
-<div class="grid-row">
-    <div class="grid-col-left-sidebar">
-        <h3>Side bar</h3>
-        <p>This is the left sidebar</p>
+<div class="row">
+    <div class="d-none d-sm-block col-xs-2 col-sm-2 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+        <div class="wd-margin-left-link-list wd-margin-top-link-list list-group">
+            <li class="list-group-item list-group-item-action flex-column">
+                <i class="fab fa-twitter"></i>
+            </li>
+            <li class="list-group-item list-group-item-action flex-column">
+                <div class="wd-inline-home d-flex wd-user-child">
+                    <i class="fa fa-home"></i>
+                    <span class="d-none d-lg-block">Home</span>
+                </div>
+            </li>
+            <li class="list-group-item list-group-item-action active flex-column">
+                <div class="wd-inline-home d-flex">
+                    <i class="fa fa-hashtag"></i>
+                    <span class="d-none d-lg-block">Explore</span>
+                </div>
+            </li>
+            <li class="list-group-item list-group-item-action flex-column">
+                <div class="wd-inline-home d-flex">
+                    <i class="fa fa-bell"></i>
+                    <span class="d-none d-lg-block">Notification</span>
+                </div>
+            </li>
+            <li class="list-group-item list-group-item-action flex-column">
+                <div class="wd-inline-home d-flex">
+                    <i class="fa fa-envelope"></i>
+                    <span class="d-none d-lg-block">Messages</span>
+                </div>
+            </li>
+            <li class="list-group-item list-group-item-action flex-column">
+                <div class="wd-inline-home d-flex">
+                    <i class="fa fa-bookmark"></i>
+                    <span class="d-none d-lg-block">Bookmark</span>
+                </div>
+            </li>
+            <li class="list-group-item list-group-item-action flex-column">
+                <div class="wd-inline-home d-flex">
+                    <i class="fa fa-list"></i>
+                    <span class="d-none d-lg-block">Lists</span>
+                </div>
+            </li>
+            <li class="list-group-item list-group-item-action flex-column">
+                <div class="wd-inline-home d-flex">
+                    <i class="fa fa-user"></i>
+                    <span class="d-none d-lg-block">Profile</span>
+                </div>
+            </li>
+        </div>
     </div>
-    <div class="grid-col-main-content wd-title-border">
-        <div>
-            <div class="wd-search-border">
-                <i class="fa fa-search"></i>
-                <input id="text-field-search" class="wd-input-border" placeholder="Search Tuiter">
-                <a href="explore-settings.html"><i class="fas fa-gear"></i></a>
-            </div>
-            <ul class="nav nav-tabs wd-nav-border">
-                <li class="nav-item"><a class="nav-link active" href="#">For you</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Trending</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">News</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Sports</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Entertainment</a></li>
-            </ul>
-            <div class="container">
-                <img src="image/spaceX.jpg" width="100%">
-                <div class="wd-text-top"><b>SpaceX's Starship</b></div>
-            </div>
-            <div class="wd-post-border container">
-                <div class="left-element">
-                    <div class="wd-topic-input">Trending in Science</div>
-                    <div class="wd-title-input">ReactJS <i class="fas fa-circle-check"></i><span class="wd-topic-input">- 2h</span></div>
-                    <div class="wd-title-input">React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs</div>
-                    <div class="wd-tweet-number">55.5K Tweets</div>
+    <div class="col-xs-10 col-sm-10 col-md-9 col-lg-5 col-xl-5 col-xxl-5">
+        <div class="wrap wd-title-border">
+            <div>
+                <div class="wd-search-border">
+                    <i class="fa fa-search"></i>
+                    <input id="text-field-search" class="wd-input-border" placeholder="  Search Tuiter">
+                    <a href="explore-settings.html"><i class="fas fa-gear"></i></a>
                 </div>
-                <img class="right-element" src="image/spaceX.jpg">
-            </div>
-            <div class="wd-post-border container">
-                <div class="left-element">
-                    <div class="wd-topic-input">Trending in Science</div>
-                    <div class="wd-title-input">ReactJS <i class="fas fa-circle-check"></i><span class="wd-topic-input">- 2h</span></div>
-                    <div class="wd-title-input">React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs</div>
-                    <div class="wd-tweet-number">55.5K Tweets</div>
+                <ul class="nav nav-tabs wd-nav-border">
+                    <li class="nav-item"><a class="nav-link active" href="#">For you</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Trending</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">News</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Sports</a></li>
+                    <li class="nav-item d-none d-md-block"><a class="nav-link" href="#">Entertainment</a></li>
+                </ul>
+                <div class="card">
+                    <img src="image/spaceX.jpg" width="100%">
+                    <div class="wd-text-top"><b>SpaceX's Starship</b></div>
                 </div>
-                <img class="right-element" src="image/spaceX.jpg">
+                <div class="wd-post-border wd-container">
+                    <div class="left-element">
+                        <div class="wd-topic-input">Trending in Science</div>
+                        <div class="wd-title-input">ReactJS <i class="fas fa-circle-check"></i><span class="wd-topic-input">- 2h</span></div>
+                        <div class="wd-title-input">React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs</div>
+                        <div class="wd-tweet-number">55.5K Tweets</div>
+                    </div>
+                    <img class="right-element" src="image/spaceX.jpg">
+                </div>
+                <div class="wd-post-border wd-container">
+                    <div class="left-element">
+                        <div class="wd-topic-input">Trending in Science</div>
+                        <div class="wd-title-input">ReactJS <i class="fas fa-circle-check"></i><span class="wd-topic-input">- 2h</span></div>
+                        <div class="wd-title-input">React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs</div>
+                        <div class="wd-tweet-number">55.5K Tweets</div>
+                    </div>
+                    <img class="right-element" src="image/spaceX.jpg">
+                </div>
             </div>
         </div>
     </div>
-    <div class="grid-col-right-sidebar">
-        <h3>Side bar</h3>
-        <p>This is the right sidebar</p>
+    <div class="d-none d-lg-block col-lg-4 col-xl-4 col-xxl-4">
+        <ul class="wd-margin-top-link-list wd-margin-right-link-list list-group">
+            <li class="list-group-item">
+                <span>Who to follow</span>
+            </li>
+            <li class="list-group-item">
+                <div>
+                    <button class=" wd-follow-button btn-primary float-end">
+                        Follow
+                    </button>
+                    <img class="wd-user-image" src="image/Profile_Alice.jpg">
+                    <div>
+                        <span class="wd-user-text-title">Alice123</span>
+                        <i class="fa-solid fa-circle-check"></i>
+                        <br>
+                        <span>@alice123</span>
+                    </div>
+                </div>
+            </li>
+        </ul>
     </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js">
